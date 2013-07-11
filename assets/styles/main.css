@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Noto+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Noto+Sans|Belgrano);
 body{
 	background-color: #FFF;
 	width: 70%;
@@ -71,12 +71,42 @@ ul {
 	padding: 5px;
 }
 
+.twitter-box{
+	width: 100%;
+	min-height: 100px;
+	padding: 10px;
+	font-family: "Belgrano", sans-serif;
+	font-size: 15px;
+	text-align: center;
+	font-style: oblique;
+}
+.twitter-box p{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 
 .footer{
 	width: 100%;
 	border: 2px solid;
 	height: 200px;
 	padding: 5px;
+}
+.footer table{
+	width: 100%;
+	padding: 5px;
+}
+.footer td{
+	margin: auto;
+	height: 190px;
+	vertical-align: top;
+
+}
+
+.footer .heading{
+	font-size: 12px;
+	color: #777;
+	text-transform: uppercase;
 }
 
 .footer-copyright{
@@ -85,4 +115,12 @@ ul {
 	text-align: center;
 	color: #999;
 	font-size: 13px;
+}
+
+hr.light{
+	background: #AAA;
+	height:1px;
+	border: none;
+	width:60%;
+	margin-left: 20%;
 }
