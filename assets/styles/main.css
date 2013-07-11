@@ -1,10 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Noto+Sans);
 body{
 	background-color: #FFF;
 	width: 70%;
 	margin: 0 auto;
 	padding: 1%;
-	font-family: "Open Sans", Sans;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
 }
 
 
@@ -23,6 +24,8 @@ body{
 	border: 4px solid;
 	width: 100%;
 	text-transform: uppercase;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 17px;
 }
 .menu-table td{
 	border-left: 2px solid;
@@ -71,7 +74,15 @@ ul {
 
 .footer{
 	width: 100%;
-	border: 4px solid;
+	border: 2px solid;
 	height: 200px;
 	padding: 5px;
+}
+
+.footer-copyright{
+	width: 100%;
+	height:20px;
+	text-align: center;
+	color: #999;
+	font-size: 13px;
 }
