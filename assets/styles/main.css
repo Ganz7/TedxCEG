@@ -19,10 +19,12 @@ body{
 
 .menu{
 	text-align: center;
+	width: 100%
 }
 .menu-table{
 	border: 4px solid;
-	width: 100%;
+	width: 800px;
+	margin: 0 auto;
 	text-transform: uppercase;
 	font-family: "Noto Sans", sans-serif;
 	font-size: 17px;
@@ -66,9 +68,33 @@ ul {
 
 .feature{
 	width: 100%;
-	min-height: 500px;
+	min-height: 400px;
 	text-align: center;
 	padding: 5px;
+	font-family: "Lato", sans-serif;
+	font-size: 25px;
+	color: #666;
+	line-height: 400px;
+}
+
+.speaker-box{
+	width: 100%;
+	min-height: 400px;
+	text-align: center;
+}
+.speaker-box table{
+	width:825px;
+	margin: 0 auto;
+}
+.speaker-box tr{
+	height: 275px;
+}
+.speaker-box td{
+	width: 275px;
+}
+.speaker-box img{
+	height: 250px;
+	width: 250px;
 }
 
 .twitter-box{
@@ -85,6 +111,11 @@ ul {
 	padding-right: 10%;
 }
 
+.big-heading{
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	color: #666;
+}
 
 .footer{
 	width: 100%;
