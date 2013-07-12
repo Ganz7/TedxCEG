@@ -87,7 +87,7 @@ ul {
 	margin: 0 auto;
 }
 .speaker-box tr{
-	height: 275px;
+	height: 320px;
 }
 .speaker-box td{
 	width: 275px;
@@ -95,6 +95,12 @@ ul {
 .speaker-box img{
 	height: 250px;
 	width: 250px;
+}
+.speaker-box .details{
+	height: 50px;
+	width: 250px;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
 }
 
 .twitter-box{
