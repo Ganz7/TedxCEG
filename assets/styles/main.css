@@ -22,7 +22,7 @@ body{
 	width: 100%
 }
 .menu-table{
-	border: 4px solid;
+	border: 3px solid;
 	width: 800px;
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -64,6 +64,14 @@ ul {
 	color: #626262;
 	text-transform: uppercase;
 	text-decoration: none;
+
+	transition:color 0.4s;
+	-moz-transition:color 0.4s; /* Firefox */
+	-webkit-transition:color 0.4s; /* Safari and Chrome */
+	-o-transition:color 0.4s; /* Opera */
+}
+#meta-menu li a:hover {
+	color: #111;
 }
 
 .feature{
@@ -103,6 +111,34 @@ ul {
 	font-size: 20px;
 }
 
+.venue-box{
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+.venue-box table{
+	width:825px;
+	margin: 0 auto;
+	text-align:left;
+}
+.venue-box img{
+	box-shadow: 0 0 0 4px #fff, 0 0 0 6px #555;
+}
+.venue-box .heading{
+	font-size: 23px;
+	color: #666;
+	text-transform:uppercase;
+}
+.venue-box .text{
+	font-size: 18px;
+	color: #666;
+}
+.venue-box .highlight{
+	font-size: 21px;
+	color: #666;
+}
+
 .twitter-box{
 	width: 100%;
 	min-height: 100px;
@@ -110,7 +146,7 @@ ul {
 	font-family: "Belgrano", sans-serif;
 	font-size: 15px;
 	text-align: center;
-	font-style: oblique;
+	color:#444;
 }
 .twitter-box p{
 	padding-left: 10%;
@@ -137,7 +173,18 @@ ul {
 	margin: auto;
 	height: 240px;
 	vertical-align: top;
+}
+.link {
+	color:#666;
+	text-decoration:none;
 
+	transition:color 0.4s;
+	-moz-transition:color 0.4s; /* Firefox */
+	-webkit-transition:color 0.4s; /* Safari and Chrome */
+	-o-transition:color 0.4s; /* Opera */
+}
+.link:hover {
+	color:#111;
 }
 
 .footer .heading{
