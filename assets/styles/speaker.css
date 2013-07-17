@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Noto+Sans|Belgrano);
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Noto+Sans);
 body{
 	background-color: #FFF;
 	width: 70%;
@@ -111,52 +111,49 @@ ul {
 	font-size: 20px;
 }
 
-.venue-box{
-	width: 100%;
-	min-height: 500px;
-	text-align: center;
+.speaker-banner{
+	width:100%;
+	min-height:310px;
 	font-family: "Lato", sans-serif;
 }
-.venue-box table{
+
+.speaker-banner table{
 	width:825px;
 	margin: 0 auto;
-	text-align:left;
-}
-.venue-box img{
-	box-shadow: 0 0 0 4px #fff, 0 0 0 6px #555;
-}
-.venue-box .heading{
-	font-size: 23px;
-	color: #666;
-	text-transform:uppercase;
-}
-.venue-box .text{
-	font-size: 18px;
-	color: #666;
-}
-.venue-box .highlight{
-	font-size: 21px;
-	color: #666;
 }
 
-.twitter-box{
-	width: 100%;
-	min-height: 100px;
-	padding: 10px;
-	font-family: "Belgrano", sans-serif;
-	font-size: 15px;
-	text-align: center;
-	color:#444;
+.speaker-banner td{
+	margin: auto;
+	vertical-align: top;
 }
-.twitter-box p{
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.big-heading{
+.speaker-banner .big-heading{
 	font-family: "Lato", sans-serif;
-	font-size: 30px;
+	font-size: 55px;
 	color: #666;
+}
+
+.speaker-banner img{
+	box-shadow: 0 0 0 3px #FFF, 0 0 0 8px #888;
+}
+
+.small-heading{
+	font-family: "Lato", sans-serif;
+	font-size: 27px;
+	color: #888;
+}
+
+.speaker-content{
+	width:825px;
+	min-height:400px;
+	font-family: "Lato", sans-serif;
+	padding-left:5%;
+	margin: 0 auto;
+}
+
+.speaker-content p{
+	font-family: "Noto Sans", sans-serif;
+	font-size:16px;
+	color:#666;
 }
 
 .footer{
