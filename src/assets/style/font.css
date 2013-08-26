@@ -1,0 +1,31 @@
+@font-face 
+{
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'HelveticaNeue-Condensed';
+    src: local('☺'),url('../fonts/HelveticaNeue-Condensed.otf') format('opentype');
+}
+
+@font-face 
+{
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'HelveticaNeue-Light';
+    src: local('☺'),url('../fonts/HelveticaNeue-Light.otf') format('opentype');
+}
+
+@font-face 
+{
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'HelveticaNeue-Medium';
+    src: local('☺'),url('../fonts/HelveticaNeue-Medium.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'OpenSans';
+    src: local('☺'),url('../fonts/opensans-regular.ttf') format('truetype');
+}
